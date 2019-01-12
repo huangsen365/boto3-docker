@@ -1,0 +1,7 @@
+FROM centos:7
+MAINTAINER huangsen365@gmail.com
+
+#RUN yum -y install python
+RUN yum -y install epel-release
+RUN yum -y install python-pip
+RUN pip install boto3 awscli
