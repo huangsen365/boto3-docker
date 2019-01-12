@@ -1,0 +1,2 @@
+export HISTSIZE=20000
+export HISTTIMEFORMAT="%F %T "
