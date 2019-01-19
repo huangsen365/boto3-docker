@@ -1,7 +1,5 @@
 FROM centos:7
-MAINTAINER huangsen365@gmail.com
 
-#RUN yum -y install python
 RUN sed -i 's/tsflags/\#tsflags/g' /etc/yum.conf
 RUN yum -y install man-pages man-db man
 RUN yum -y install epel-release
